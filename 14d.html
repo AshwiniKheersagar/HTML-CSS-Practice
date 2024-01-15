@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14d</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .sidebar{
+            position: fixed;
+            width: 100px;
+            bottom: 0px;
+            right: 0px;
+            top: 0px;
+            background-color: olivedrab;
+            color: white;
+        }
+        .overlay{
+            background-color:rgba(0, 0,0,0.5) ;
+            position: fixed;
+            top:0px;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .con{
+            background-color: white;
+            padding: 15px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        .head{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        .content{
+            font-family: Arial;
+  margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        right sidebar
+    </div>
+    <div class="overlay">
+        <div class="con">
+            <div class="head">Modal Title</div>
+            <div class="content">This is a model</div>
+            <button>close</button>
+        </div>
+    </div>
+
+</body>
+</html>
